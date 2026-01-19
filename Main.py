@@ -45,8 +45,8 @@ def start_program_with_url(url):
     # Importing these modules executes their top-level code immediately.
     # In this project, each module "does its job" at import time.
     import Scalp                # parses flightData.html -> writes Data.xlsx
-    import display              # reads Data.xlsx -> writes map.html and opens it
-    import timeInEachCountry    # reads Data.xlsx -> prints time-by-country
+    import Display              # reads Data.xlsx -> writes map.html and opens it
+    import TimeInEachCountry    # reads Data.xlsx -> prints time-by-country
 
     # Cleanup generated files.
     remove("Data.xlsx")
@@ -94,3 +94,4 @@ send_button = tk.Button(root, text="Done", command=on_send)
 send_button.pack(pady=10)
 
 root.mainloop()
+
