@@ -21,7 +21,7 @@ This project is a small end-to-end experiment that:
 
 ---
 
-## How it works (high-level)
+## How it works
 
 1. **Main.py**
    - Shows a simple Tkinter UI asking for a FlightAware Flight Track Log URL.
@@ -63,7 +63,6 @@ Python dependencies (example):
 - `openpyxl`
 - `folium`
 - `geopandas`
-- `shapely`
 - `tkinter` (usually included with standard Python on many platforms)
 
 You’ll also need:
